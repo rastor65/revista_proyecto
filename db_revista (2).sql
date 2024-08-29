@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 29-08-2024 a las 22:47:32
+-- Tiempo de generación: 29-08-2024 a las 23:08:33
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.0.28
 
@@ -282,7 +282,7 @@ INSERT INTO `authenticacion_resource` (`id`, `createdAt`, `updateAt`, `path`, `i
 (56, '2023-10-06', '2023-10-06', '/solicitud/revista/revista/', 54, 'post', 'pi pi-book', '/solicitudes/revistas/crear/', 'Crear', 1),
 (57, '2023-10-06', '2023-10-06', '/solicitud/revista/revista/', 54, 'post', 'pi pi-book', '/solicitudes/revistas/editar/', 'Editar', 1),
 (58, '2023-10-06', '2023-10-06', '/solicitud/revista/revista/', 54, 'post', 'pi pi-book', '/solicitudes/revistas/eliminar/', 'Eliminar', 1),
-(59, '2024-01-10', '2024-01-10', '/oscar', 0, 'post', 'pi pi-star', '/oscar', 'Oscar2', 1);
+(59, '2024-01-10', '2024-08-29', '/oscar', 0, 'post', 'pi pi-star', '/oscar', 'Oscar2', 0);
 
 -- --------------------------------------------------------
 
@@ -394,7 +394,31 @@ INSERT INTO `authenticacion_resourcerol` (`id`, `createdAt`, `updateAt`, `status
 (93, '2023-10-11', '2023-10-11', 1, 17, 6),
 (94, '2023-10-11', '2023-10-11', 1, 12, 4),
 (95, '2023-10-11', '2023-10-11', 1, 28, 4),
-(96, '2023-10-11', '2023-10-11', 1, 17, 4);
+(96, '2023-10-11', '2023-10-11', 1, 17, 4),
+(97, '2024-08-29', '2024-08-29', 1, 1, 11),
+(98, '2024-08-29', '2024-08-29', 1, 2, 11),
+(99, '2024-08-29', '2024-08-29', 1, 3, 11),
+(100, '2024-08-29', '2024-08-29', 1, 4, 11),
+(101, '2024-08-29', '2024-08-29', 1, 7, 11),
+(102, '2024-08-29', '2024-08-29', 1, 8, 11),
+(103, '2024-08-29', '2024-08-29', 1, 12, 11),
+(104, '2024-08-29', '2024-08-29', 1, 13, 11),
+(105, '2024-08-29', '2024-08-29', 1, 27, 11),
+(106, '2024-08-29', '2024-08-29', 1, 28, 11),
+(107, '2024-08-29', '2024-08-29', 1, 17, 11),
+(108, '2024-08-29', '2024-08-29', 1, 30, 11),
+(109, '2024-08-29', '2024-08-29', 1, 31, 11),
+(110, '2024-08-29', '2024-08-29', 1, 54, 11),
+(111, '2024-08-29', '2024-08-29', 1, 55, 11),
+(112, '2024-08-29', '2024-08-29', 1, 37, 11),
+(113, '2024-08-29', '2024-08-29', 1, 38, 11),
+(114, '2024-08-29', '2024-08-29', 1, 22, 11),
+(115, '2024-08-29', '2024-08-29', 1, 42, 11),
+(116, '2024-08-29', '2024-08-29', 1, 43, 11),
+(117, '2024-08-29', '2024-08-29', 1, 47, 11),
+(118, '2024-08-29', '2024-08-29', 1, 48, 11),
+(119, '2024-08-29', '2024-08-29', 1, 49, 11),
+(120, '2024-08-29', '2024-08-29', 1, 50, 11);
 
 -- --------------------------------------------------------
 
@@ -424,7 +448,8 @@ INSERT INTO `authenticacion_rol` (`id`, `createdAt`, `updateAt`, `name`, `status
 (7, '2023-09-15', '2023-09-15', 'Autor', 1),
 (8, '2023-09-16', '2023-09-16', 'prueba', 0),
 (9, '2023-09-19', '2023-09-19', 'Pruebaa', 0),
-(10, '2024-01-10', '2024-08-11', 'Oscar', 0);
+(10, '2024-01-10', '2024-08-11', 'Oscar', 0),
+(11, '2024-08-29', '2024-08-29', 'Invitado', 1);
 
 -- --------------------------------------------------------
 
@@ -2144,13 +2169,13 @@ ALTER TABLE `authenticacion_resource`
 -- AUTO_INCREMENT de la tabla `authenticacion_resourcerol`
 --
 ALTER TABLE `authenticacion_resourcerol`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=97;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=121;
 
 --
 -- AUTO_INCREMENT de la tabla `authenticacion_rol`
 --
 ALTER TABLE `authenticacion_rol`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT de la tabla `authenticacion_userrol`
